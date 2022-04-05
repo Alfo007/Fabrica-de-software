@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --cor-botao: #FFB800;
+    --cor-botao-foco: #FF900E;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   padding: 25px;
+   gap: 100px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 65px;
+}
+
+.item-menu {
+     font-size: 20px;
+
+
+}
+
+.area-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid gray;
+    padding: 60px;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    gap: 20px;
+
+}
+
+.titulo {
+     font-weight: 900;
+     font-size: 48px;
+
+}
+
+.botao {
+    height: 109px;
+    width: 419px;
+    background-color: var(--cor-botao);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 200px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao:hover {
+    background-color: var(--cor-botao-foco);
+}
+
+.rodape {
+    padding: 45px;
+    border-top: 2px solid dimgray;
+    text-align: center;
+
+}

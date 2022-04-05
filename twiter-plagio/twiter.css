@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    height: 100vh;
+}
+
+
+.container {
+    flex-grow: 1;
+    background-color: #F3F3F3;
+}
+
+.main-container {
+    background-color: #F3F3F3;
+    flex-grow: 4;
+}
+
+.user-information {
+    background: linear-gradient( 180deg , #ffe07e 50%, #fff 50%);
+    border-radius: 0 30px 30px 0;
+    height: 38%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-color: brown;
+    border-radius: 50px;
+    margin-top: 20px;
+    height: 95px;
+    width: 95px;
+}
+
+.nome-usuario{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.username, .e-mail{
+    font-size: 0.8rem;
+}
+
+.user-configuration {
+    background-color: #FFF;
+    height: 51%;
+    border-radius: 0 30px 0 0;
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+} 
+
+.user-configuration-link{
+    color: black;
+}
